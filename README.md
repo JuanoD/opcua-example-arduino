@@ -8,7 +8,7 @@ Use Arduino IDE to compile and upload `server/server.ino` to the controller.
 
 ```
 python -m venv venv
-.\venv\Scripts\activate
+./venv/Scripts/activate
 pip install -r requirements.txt
 python client/opcua.py
 ```
